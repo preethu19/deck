@@ -4,7 +4,7 @@ import Header from './Components/Header';
 import Login from './Components/Login';
 import Footer from './Components/Footer';
 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 import DeckPage from './Components/DeckPage';
 import Cards from './Components/Cards';
 import Card  from './Components/Card';
