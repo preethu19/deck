@@ -23,7 +23,7 @@ function App() {
             <Route exact path="/" component={CardPageTwo} />
             <Route exact path="/Login" component={Login} />
             <Route exact path="/DeckPage" component={DeckPage} />
-            <Route exact path="/Deck" component={Deck} />
+            <Route exact path="/Decks" component={Deck} />
             <Route exact path="/Cards" component={Cards} />
             <Route exact path="/Card" component={Card} />
             <Route exact path="/CardTwo" component={CardPageTwo} />
