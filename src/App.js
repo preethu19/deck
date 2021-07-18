@@ -27,7 +27,7 @@ function App() {
             <Route exact path="/Cards" component={Cards} />
             <Route exact path="/Card" component={Card} />
             <Route exact path="/CardTwo" component={CardPageTwo} />
-
+            <Redirect to='/' />
           </Switch>
           
         </Router>
